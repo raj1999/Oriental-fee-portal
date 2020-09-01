@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<link rel="shortcut icon"href="images/download.png">
+	<title> Oriental Online Fees Portal</title>
+	<link href="https://fonts.googleapis.com/css2?family=Headland+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+
+	<style>
+		body {
+		  background-image: url('images/ob1.jpg');
+		  background-repeat: no-repeat;
+		  background-attachment: scroll;
+		  background-size: 100% 100%;
+		}
+		</style>
+</head>
+<body>
+<!-- <img class="bg-img"src="images/ob1.jpg"> -->
+	<header>
+		<nav class="navBar">
+			<div class="logo-div">
+				<a href="#"><img class="logo-img"src="images/oist-logo.png" alt="Oriental Group of Institute"></a>
+			 </div>
+			<div class="heading" >
+				<p>Online Fee Portal</p>	
+
+			</div>
+
+
+				<!-- 	<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Teacher</a>
+    <a class="dropdown-item" href="#">Student</a>
+
+
+  </div>
+</div>
+ -->
+		
+
+
+
+
+
+		</nav>
+	</header>
+
+	<div class="container">
+		<div class="wel" id="welco"><h4>Welcome</h4></div>
+		<div class="rad-btn">
+		<div id="teachClick" class="form-check form-check-inline" onclick ="TeacherLogin();" >
+  <input id="buon" name="choice" class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Login As Student" required>
+  <label class="form-check-label" for="inlineRadio1">Student</label>
+</div>
+<div  class="form-check form-check-inline"  onclick ="TeacherLogin();">
+  <input name="choice" class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Login As Teacher">
+  <label class="form-check-label" for="inlineRadio2">Teacher</label>
+</div>
+<div class="form-check form-check-inline" onclick ="TeacherLogin();">
+  <input name="choice" class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="Login As Administrator">
+  <label class="form-check-label" for="inlineRadio3">Administrator</label>
+</div>
+</div>
+<div id="who"></div>
+	
+	<form>
+	<div  class="cred ">
+		<label id="tea" onload="loadtea();"></label>
+		<label id="enroll" class="w">Enrollment Id:</label>
+		
+		<span class="input-group-addon"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+</svg></span>
+
+
+		<input type="text" name="0123AB123456" required>
+	</div>
+
+	<div class="cred-pass cred ">
+		<p class="w">Password:</p>
+
+
+
+<span class="locker"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-lock-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M2.5 9a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V9z"/>
+  <path fill-rule="evenodd" d="M4.5 4a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z"/>
+</svg></span>
+
+		<input type="Password" name="Password" required id="password">
+		<i class="far fa-eye" id="togglePassword"></i><br>
+		<p class="case">password case-sensitive</p>
+	</div>
+<button id="btn" class="Submit">Submit</button>
+		</form>
+
+
+		<a href="#" class="forget"><br>Forget Password?</a>
+	</div>
+
+	<footer class="foot">
+
+		<p>This project is created and managed by- Computer Science Branch. </p><br>
+		<p class="hod">Under the guidence of Sanjay Sharma(HOD, Computer Science)</p>
+		
+
+
+	</footer>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
