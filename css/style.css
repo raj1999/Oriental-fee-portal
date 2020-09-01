@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+.bg-img{
+
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.logo-div{
+	width: 50%;
+	margin-left: 3vw;
+	/*margin-top: 1vw;*/
+
+}
+.navBar{
+	/*background-color: blue;*/
+	height: 80px;
+	display: flex;
+	/*width: 300px;*/
+	width: 100%;
+	background-color:#05182f;
+}
+
+.logo-img{
+	height: 80px;
+	width: max-content;
+
+}
+.heading{
+	text-transform: uppercase;
+	width: inherit;
+	/*display: flex;*/
+	/*float: right;*/
+	 /*text-align: center;*/
+	 font-size: 60px;
+	 /*margin-bottom: 5px;*/
+	 /*float: left;*/
+}
+.heading p{
+	font-family: 'Headland One', sans-serif;
+	opacity: 0.5;
+	color: white;
+}
+.container{
+	height: 500px;
+	width: 700px;
+	border: 1px solid #a90b2f;
+	margin-top: 70px; 
+	background-color: antiquewhite;
+}
+.wel{
+	margin-left: -16px;
+	width: 700px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-style: italic;
+	/* text-decoration: underline; */
+	font-size: 18px;
+	text-align: center;
+	background-color: #a90b2f;
+
+}
+.rad-btn{
+	    text-align: center;
+    margin-top: 30px;
+
+}
+.cred{
+	display: flex;
+	width: 500px;
+	margin-top: 30px;
+}
+.cred input{
+	/*margin-left: 30px;*/
+	width: 250px;
+	border-radius: 0.25rem;
+	/*border: 1px;*/
+	height: 30px;
+	font-size: 14px;
+    padding-left: 8px;
+
+}
+.cred-pass input{
+margin-left: -1px;
+
+}
+.cred-pass p{
+	margin-left: 24px;
+}
+.form-check-label{
+	font-weight: 700;
+}
+.cred p{
+	font-weight: 600;
+}
+#who{
+	text-align: center;
+	font-weight: 600;
+	font-size: 14px;
+	color: #ef0808;
+	/*height: 100px;*/
+}
+#tea{
+	width: 102px;
+	margin-left: 23px;
+
+}
+/*#tea{
+margin-right: 10px;
+margin-left: 24px;
+width: 91px;
+}*/
+form{
+	    margin-left: 100px;
+    margin-top: 52px;
+}
+.Submit{
+	margin-left: 230px;
+	margin-top: 15px;
+	width: 80px;
+	font-weight: 500;
+	border-radius: 0.25rem;
+}
+.Submit:hover{
+  box-shadow: 1px 1px #ff0000;;
+}
+
+.locker{
+margin-left: 32px !important;
+}
+.input-group-addon{
+	margin-left: 31px;
+
+}
+.case{
+    margin-left: -240px !important ;
+    margin-top: 28px;
+    color: red;
+    font-size: 14px;
+    font-weight: 400 !important;
+}
+
+.foot{
+height: 100px;
+    color: white;
+    display: block;
+    background-color: #05182f;
+    margin-top: 100px;
+	text-align: center;
+}
+.foot p{
+	opacity: 0.7;
+	margin-bottom: 0;
+}
+
+#enroll{
+margin-left: 23px;
+
+}
+.w{
+	width: 102px;
+}
+input{
+	/*margin-right: 20px;*/
+}
+label{
+	font-weight: 600;
+}
+.forget{
+	    margin-right: 230px;
+    float: right;
+}
+.far{
+	margin-left: -24px;
+	margin-top: 0.6vw;
+	cursor: pointer;
+}
+.hod{
+	font-size: 14px;
+}
